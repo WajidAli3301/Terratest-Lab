@@ -16,7 +16,7 @@ func TestWebServer(t *testing.T) {
 
 terraform.InitAndApply(t, terraformOptions)
 
-name := "testing3301-demo-lab"
+name := "testing3301-demo-lab-1"
 region := "us-east-1"
 aws.AssertS3BucketExists(t, region, name)
 

@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "Testing" {
   versioning {
     enabled = true
   }
-  bucket = "testing3301-demo-lab"
+  bucket = "testing3301-demo-lab-1"
   tags = {     
     Name = "terratest-aws-s3-example-3301"     
     Environment = "Dev"   
