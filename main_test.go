@@ -24,6 +24,6 @@ aws.AssertS3BucketExists(t, region, name)
 }
 
 // GetS3ObjectContents fetches the contents of the object in the given bucket with the given key and return it as a string.
-//
+
 
 

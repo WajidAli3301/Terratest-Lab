@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "Testing" {
 
 }
 
-# Upload an object to aws test for testing purpose
+# Upload an object to aws test in order to test
 resource "aws_s3_bucket_object" "test1-creation" {
 
   bucket = aws_s3_bucket.Testing.id
